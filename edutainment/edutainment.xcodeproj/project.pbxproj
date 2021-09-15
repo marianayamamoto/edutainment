@@ -13,6 +13,13 @@
 		40F5ECD226F13A3300A7D01B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F5ECD126F13A3300A7D01B /* Assets.xcassets */; };
 		40F5ECD526F13A3300A7D01B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F5ECD426F13A3300A7D01B /* Preview Assets.xcassets */; };
 		40F5ECD826F13A3300A7D01B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40F5ECD626F13A3300A7D01B /* LaunchScreen.storyboard */; };
+		40F5ED1026F24ADE00A7D01B /* KeypadButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED0F26F24ADE00A7D01B /* KeypadButtonView.swift */; };
+		40F5ED1326F24B0900A7D01B /* KeypadRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED1226F24B0900A7D01B /* KeypadRowView.swift */; };
+		40F5ED1626F24B2000A7D01B /* KeypadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED1526F24B2000A7D01B /* KeypadView.swift */; };
+		40F5ED1926F2705600A7D01B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED1826F2705600A7D01B /* SettingsView.swift */; };
+		40F5ED1C26F2708500A7D01B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED1B26F2708500A7D01B /* QuestionView.swift */; };
+		40F5ED1F26F270A300A7D01B /* GameOnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED1E26F270A300A7D01B /* GameOnView.swift */; };
+		40F5ED2426F271CD00A7D01B /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5ED2326F271CD00A7D01B /* GameOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		40F5ECD426F13A3300A7D01B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		40F5ECD726F13A3300A7D01B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40F5ECD926F13A3300A7D01B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40F5ED0F26F24ADE00A7D01B /* KeypadButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadButtonView.swift; sourceTree = "<group>"; };
+		40F5ED1226F24B0900A7D01B /* KeypadRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadRowView.swift; sourceTree = "<group>"; };
+		40F5ED1526F24B2000A7D01B /* KeypadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypadView.swift; sourceTree = "<group>"; };
+		40F5ED1826F2705600A7D01B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		40F5ED1B26F2708500A7D01B /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		40F5ED1E26F270A300A7D01B /* GameOnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOnView.swift; sourceTree = "<group>"; };
+		40F5ED2326F271CD00A7D01B /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,8 @@
 		40F5ECCA26F13A2B00A7D01B /* edutainment */ = {
 			isa = PBXGroup;
 			children = (
+				40F5ED2226F270C900A7D01B /* ViewModels */,
+				40F5ED2126F270BD00A7D01B /* Views */,
 				40F5ECCB26F13A2B00A7D01B /* AppDelegate.swift */,
 				40F5ECCD26F13A2B00A7D01B /* SceneDelegate.swift */,
 				40F5ECCF26F13A2B00A7D01B /* ContentView.swift */,
@@ -73,6 +89,27 @@
 				40F5ECD426F13A3300A7D01B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		40F5ED2126F270BD00A7D01B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40F5ED0F26F24ADE00A7D01B /* KeypadButtonView.swift */,
+				40F5ED1226F24B0900A7D01B /* KeypadRowView.swift */,
+				40F5ED1526F24B2000A7D01B /* KeypadView.swift */,
+				40F5ED1826F2705600A7D01B /* SettingsView.swift */,
+				40F5ED1B26F2708500A7D01B /* QuestionView.swift */,
+				40F5ED1E26F270A300A7D01B /* GameOnView.swift */,
+				40F5ED2326F271CD00A7D01B /* GameOverView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		40F5ED2226F270C900A7D01B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40F5ED2426F271CD00A7D01B /* GameOverView.swift in Sources */,
+				40F5ED1C26F2708500A7D01B /* QuestionView.swift in Sources */,
+				40F5ED1926F2705600A7D01B /* SettingsView.swift in Sources */,
+				40F5ED1326F24B0900A7D01B /* KeypadRowView.swift in Sources */,
+				40F5ED1F26F270A300A7D01B /* GameOnView.swift in Sources */,
 				40F5ECCC26F13A2B00A7D01B /* AppDelegate.swift in Sources */,
+				40F5ED1626F24B2000A7D01B /* KeypadView.swift in Sources */,
 				40F5ECCE26F13A2B00A7D01B /* SceneDelegate.swift in Sources */,
+				40F5ED1026F24ADE00A7D01B /* KeypadButtonView.swift in Sources */,
 				40F5ECD026F13A2B00A7D01B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
