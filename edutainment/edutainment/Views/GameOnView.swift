@@ -45,7 +45,7 @@ struct GameOnView: View {
         Group {
             if shouldLoadMoreQuestions {
                 Form {
-                    QuestionView(gameMode: gameMode, currentQuestion: currentQuestion, numberOfQuestionsAsked: numberOfQuestionsAsked, totalQuestions: totalQuestions, answer: answer)
+                    QuestionView(gameMode: gameMode, currentQuestion: $currentQuestion, numberOfQuestionsAsked: numberOfQuestionsAsked, totalQuestions: totalQuestions, answer: answer)
                     Section(header: Text("Tap the answer")) {
                         KeyPad(string: $answer, withDecimalPoint: false)
                             .font(.largeTitle)

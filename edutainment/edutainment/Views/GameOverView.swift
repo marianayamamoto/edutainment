@@ -21,9 +21,8 @@ struct GameOverView: View {
     }
 
     var body: some View {
-        VStack {
+        VStack(spacing: 10) {
             Text("You got \(score)/\(totalQuestions) questions correct!")
-            Divider()
             if score == totalQuestions {
                 Text("You got them all!!!")
                 Button(action: { self.showProgress.toggle() }, label: {
